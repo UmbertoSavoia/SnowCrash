@@ -2,9 +2,11 @@
 
 ### 1 passaggio:
 Con il comando:
-` find / -user flag00 2> /dev/null `
-trovo i file creati dall'utente flag00 ovvero:
+```bash
+ find / -user flag00 2> /dev/null 
 ```
+trovo i file creati dall'utente flag00 ovvero:
+```bash
 /usr/sbin/john
 /rofs/usr/sbin/john
 ```
