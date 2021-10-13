@@ -24,6 +24,7 @@ di codice arbitrario in php soprattutto se mescolata con l'opzione `/e` proprio 
 $a = preg_replace("/(\[x (.*)\])/e","y(\"\\2\")",$a);
 ```
 Poichè l'opzione `/e` fa in modo che la stringa sostitutiva venga valutata come codice php.
+[Link ufficiale php](https://www.php.net/manual/en/language.types.string.php)
 
 ### 3 passaggio:
 Con il comando:
