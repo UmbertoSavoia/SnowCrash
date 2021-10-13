@@ -27,3 +27,11 @@ e ora abbiamo il seguente output:
 ```bash
 quif5eloekouj29ke0vouxean
 ```
+Ovvero la password per accedere a flag08, quindi:
+```bash
+level08@SnowCrash:~$ su flag08
+Password: quif5eloekouj29ke0vouxean
+Don't forget to launch getflag !
+flag08@SnowCrash:~$ getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f
+```
