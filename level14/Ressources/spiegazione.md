@@ -20,7 +20,7 @@ attenzione a due passaggi fondamentali:
 ```
 nella prima parte abbiamo davanti una semplicissima tecnica di anti-debugging che sfrutta l'errore
 della syscall `ptrace` per capire se l'eseguibile è stato aperto da qualche programma di debbugging
-dunque basta importare `eax` a 0 prima dell'istruzione `test`.
+dunque basta impostare `eax` a 0 prima dell'istruzione `test`.
 Mentre della seconda parte viene chiamata la funzione `getuid` che ovviamente restituirà il numero
 `2014` quindi anche qui basta sostituire subito dopo il ritorno della chiamata il valore di `eax`
 con il numero `3014` letto dal file `/etc/passwd`:
